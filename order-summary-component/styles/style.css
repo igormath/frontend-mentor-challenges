@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+
+body{
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    height: 100vh;
+}
+
+.main-illustration{
+    width: 100%;
+    height: 28%;
+}
+
+.textbox{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+h1{
+    font-size: 4.8vh;
+    color: #203258;
+}
+
+.description{
+    width: 80%;
+    margin: 5vh auto 0;
+    font-size: 2.9vh;
+    color: #858aa2;
+}
+
+.plan{
+    width: 85%;
+    height: 11vh;
+    margin: 5vh auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2vh;
+    background-color: #f8f9fe;
+}
+
+.clave{
+    width: 7.5vh;
+    height: 7.5vh;
+}
+
+.annualprice{
+    font-size: 2.5vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.annual{
+    margin-right: 4vh;
+    color: #203258;
+    font-weight: 900;
+}
+
+.price{
+    color: #858aa2;
+}
+
+.change{
+    color: #6258ba;
+    font-size: 2.5vh;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.proceed, .cancel{
+    width: 87%;
+    height: 8vh;
+    margin: 3vh auto 0;
+    border-radius: 1vh;
+    text-align: center;
+    line-height: 8vh;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.5vh;
+    background-color: #382ae1;
+}
+
+.cancel{
+    color: #858aa2;
+    background-color: #fff;
+}
+
+.credit{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.credit>a{
+    text-decoration: none;
+}
+}
+
+@media (min-width: 768px) {
+
+    body {
+        font-family: 'Red Hat Display', sans-serif;
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-color: #e0e8ff;
+    }
+
+    .card{
+        width: 60vh;
+        height: 95vh;
+        border-radius: 2vh;
+        margin: 15vh auto 0;
+        background-color: #fff;
+    }
+
+    .main-illustration{
+        border-radius: 2vh 2vh 0 0;
+        width: 100%;
+    }
+
+    .textbox{
+        text-align: center;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1{
+        color: #203258;
+    }
+
+    .description{
+        width: 80%;
+        margin-top: 3vh;
+        font-size: 2.9vh;
+        color: #858aa2;
+    }
+
+    .plan{
+        width: 85%;
+        height: 11vh;
+        margin: 5vh auto 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2vh;
+        background-color: #f8f9fe;
+    }
+
+    .clave{
+        width: 7.5vh;
+        height: 7.5vh;
+    }
+    
+    .annualprice{
+        font-size: 2.5vh;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+    
+    .annual{
+        margin-right: 4vh;
+        color: #203258;
+        font-weight: 900;
+    }
+    
+    .price{
+        color: #858aa2;
+    }
+    
+    .change{
+        color: #6258ba;
+        font-size: 2.5vh;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 900;
+    }
+
+    .change:hover{
+        text-decoration: none;
+        color: #c5bff1;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .proceed, .cancel{
+        width: 87%;
+        height: 8vh;
+        margin: 3vh auto 0;
+        border-radius: 1vh;
+        text-align: center;
+        line-height: 8vh;
+        font-family: 'Red Hat Display', sans-serif;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 900;
+        font-size: 2.5vh;
+        background-color: #382ae1;
+    }
+
+    .proceed:hover{
+        background-color: #766cf1;
+    }
+    
+    .cancel{
+        color: #858aa2;
+        background-color: #fff;
+    }
+
+    .cancel:hover{
+        color: #323b58;
+    }
+
+    .credit{
+        width: 70%;
+        margin: 2vh auto 1vh;
+        text-align: center;
+    }
+    
+    .credit>a{
+        text-decoration: none;
+    }
+}
+
