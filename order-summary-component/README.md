@@ -42,7 +42,7 @@ Mobile version (iPhone SE width and height measures)
 
 ### What I learned
 
-On this project the main acquirements I got was how to properly use flexbox to align some itens inside the divs, the use of relative units to reach responsiveness also the use of hexadecimal colors to decrease the load page timing. 
+On this project I achieved some acquirements like how to properly use flexbox to align some itens inside the divs, the use of relative units to reach responsiveness and also the use of hexadecimal colors to decrease the load page timing. 
 
 ### Continued development
 
