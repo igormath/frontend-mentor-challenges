@@ -61,4 +61,4 @@ The pursue to write an more semantic HTML5 is now my main goal. It helps not onl
 
 ## Acknowledgments
 
-On this project the main acquirements I got was how to properly use flexbox to align some itens inside the divs, the use of relative units to reach responsiveness. 
+On this project the main acquirements I got was how to properly use flexbox to align some itens inside the divs, and the use of relative units to reach responsiveness. 
