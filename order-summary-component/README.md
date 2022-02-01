@@ -28,7 +28,7 @@ Users should be able to:
 ![Screenshot 2022-02-01 at 18-48-29 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/66342961/152057526-774defb3-c8cf-478b-9604-25744b4e427f.png)
 Web version
 
-![Screenshot 2022-02-01 at 18-51-17 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/66342961/152057569-c7a3d32b-5c2b-4c72-9dc4-6a18b02873e9.png)
+![Screenshot 2022-02-01 at 18-51-17 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/66342961/152057569-c7a3d32b-5c2b-4c72-9dc4-6a18b02873e9.png) <br>
 Mobile version (iPhone SE width and height measures)
 
 
